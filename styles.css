@@ -1,0 +1,44 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(109, 87, 130);
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+
+}
+
+input {
+  font-size: 20px;
+  margin: 10px 10px 10px 10px;
+}
+
+button {
+
+  background-color: rgb(157, 161, 193);
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#result {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+
+}
