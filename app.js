@@ -9,7 +9,9 @@ $form.addEventListener("submit", function (evento) {
   let parseOneInput = parseInt($inputOne.value) || 0
   let parseTwoInput = parseInt($inputTwo.value) || 0
 
-  $result.textContent = parseOneInput + parseTwoInput
+  let resultSubmit = parseOneInput + parseTwoInput
+
+  $result.textContent = `Resultado: ${resultSubmit}`
 
 
   $inputOne.value = "";
